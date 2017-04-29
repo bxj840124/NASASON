@@ -10,10 +10,15 @@ import UIKit
 
 class startPage: UIViewController {
 
+    @IBOutlet weak var appLogo: UIImageView!
+    
+    var goNext: Bool = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {

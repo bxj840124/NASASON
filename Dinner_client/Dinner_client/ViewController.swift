@@ -13,19 +13,20 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var gameTitle: UILabel!
     @IBOutlet weak var startButton: UIButton!
-    
+    @IBOutlet weak var appLogo: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        self.gameTitle.alpha = 0.0
+        
+        self.appLogo.alpha = 0.0
         self.startButton.isHidden = true
+        self.gameTitle.alpha = 0.0
         self.gameTitle.center.y = self.view.center.y
         UIView.animate(withDuration: 1.5, animations: {
             
+            self.appLogo.alpha = 1.0
             self.gameTitle.alpha = 1.0
             self.gameTitle.center.y = self.view.center.y - 70
             

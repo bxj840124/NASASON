@@ -17,6 +17,7 @@
 		D48801341EB0E4980027F453 /* buttonFlash.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48801331EB0E4980027F453 /* buttonFlash.swift */; };
 		D488013A1EB0E8EA0027F453 /* playerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48801391EB0E8EA0027F453 /* playerInfo.swift */; };
 		D48801401EB119120027F453 /* connectPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D488013F1EB119120027F453 /* connectPage.swift */; };
+		D4B7ED911EB5290F00C79527 /* settingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B7ED901EB5290F00C79527 /* settingPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D48801331EB0E4980027F453 /* buttonFlash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buttonFlash.swift; sourceTree = "<group>"; };
 		D48801391EB0E8EA0027F453 /* playerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playerInfo.swift; sourceTree = "<group>"; };
 		D488013F1EB119120027F453 /* connectPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = connectPage.swift; sourceTree = "<group>"; };
+		D4B7ED901EB5290F00C79527 /* settingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				D488011E1EB0D9380027F453 /* AppDelegate.swift */,
 				D48801201EB0D9380027F453 /* ViewController.swift */,
 				D48801221EB0D9380027F453 /* Main.storyboard */,
+				D4B7ED901EB5290F00C79527 /* settingPage.swift */,
 				D4038A771EB5105D000DF5CB /* startPage.swift */,
 				D488013F1EB119120027F453 /* connectPage.swift */,
 				D48801331EB0E4980027F453 /* buttonFlash.swift */,
@@ -158,6 +161,7 @@
 				D48801341EB0E4980027F453 /* buttonFlash.swift in Sources */,
 				D488011F1EB0D9380027F453 /* AppDelegate.swift in Sources */,
 				D48801401EB119120027F453 /* connectPage.swift in Sources */,
+				D4B7ED911EB5290F00C79527 /* settingPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

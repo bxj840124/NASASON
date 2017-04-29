@@ -17,6 +17,68 @@
             endingLineNumber = "16"
             landmarkName = "ViewController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dinner_client.ViewController.appLogo.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "Dinner_client"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Joey/Documents/NASA%20Hackathon/NASASON/Dinner_client/Dinner_client/ViewController.swift"
+                  timestampString = "515188113.738718"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dinner_client.ViewController.appLogo.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "Dinner_client"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Joey/Documents/NASA%20Hackathon/NASASON/Dinner_client/Dinner_client/ViewController.swift"
+                  timestampString = "515188113.742043"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dinner_client.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Dinner_client.ViewController"
+                  moduleName = "Dinner_client"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Joey/Documents/NASA%20Hackathon/NASASON/Dinner_client/Dinner_client/ViewController.swift"
+                  timestampString = "515188113.745409"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dinner_client.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Dinner_client.ViewController&gt;"
+                  moduleName = "Dinner_client"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Joey/Documents/NASA%20Hackathon/NASASON/Dinner_client/Dinner_client/ViewController.swift"
+                  timestampString = "515188113.748545"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "138">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,11 +88,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Dinner_client/connectPage.swift"
-            timestampString = "514928665.75107"
+            timestampString = "515189919.415536"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +104,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Dinner_client/connectPage.swift"
-            timestampString = "514928665.75107"
+            timestampString = "515189919.415536"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
