@@ -493,6 +493,65 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+.dishes-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.dishes-modal .modal-content h2 {
+  margin: 0;
+  font-size: 3em;
+}
+.dishes-modal .modal-content img {
+  margin-bottom: 30px;
+}
+.dishes-modal .modal-content .item-details {
+  margin: 30px 0;
+}
+.dishes-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.dishes-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.dishes-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #2C3E50;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.dishes-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #2C3E50;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.dishes-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
 #recipesModal1, #recipesModal2, #recipesModal3, #recipesModal4, #recipesModal5 {
   overflow-y: scroll;
 } 
@@ -577,24 +636,34 @@ div#maincontent {
   height: 100px
 }
 
-.thumbnail {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  overflow: hidden;
-}
+.circle-avatar{
+/* make it responsive */
+max-width: 100%;
+width:100%;
+height:auto;
+display:block;
+/* div height to be the same as width*/
+padding-top:100%;
 
-.thumbnail img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 90%;
-  width: auto;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
+/* make it a circle */
+border-radius:50%;
+
+/* Centering on image`s center*/
+background-position-y: center;
+background-position-x: center;
+background-repeat: no-repeat;
+
+/* it makes the clue thing, takes smaller dimension to fill div */
+background-size: cover;
+
+/* it is optional, for making this div centered in parent*/
+margin: 0 auto;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
 }
 
 .caption {
-  font-size: 10px;
+  font-size: 8px;
 }
