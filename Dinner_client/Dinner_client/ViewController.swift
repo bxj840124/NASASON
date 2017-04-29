@@ -10,8 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-
-    @IBOutlet weak var gameTitle: UILabel!
+    @IBOutlet weak var gameTitle: UIImageView!
     @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var appLogo: UIImageView!
     
